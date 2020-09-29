@@ -26,16 +26,16 @@ function Calculator (a,b,c) {
     } 
     switch (c){
         case "+":
-            console.log(a + b);
+            console.log(`${a} + ${b} = ${a + b}`);
             break;
         case "-":
-            console.log(a - b);
+            console.log(`${a} - ${b} = ${a - b}`);
             break;
         case "*":
-            console.log(a * b);
+            console.log(`${a} * ${b} = ${a * b}`);
             break;
         case "/":
-            console.log(a / b);
+            console.log(`${a} / ${b} = ${a / b}`);
             break;
     }  
     }    
