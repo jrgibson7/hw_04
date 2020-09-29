@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lucida Console';
+    background-color: #264653;
+}
+
+p {
+    font-family: 'Lucida Console';
+}
+
+h1, h2 {
+    font-family: 'Lucida Console';
+    color: #e76f51;
+}
+
+h3 {
+    font-family: 'Lucida Console';
+    color: #e76f51;
+}
+    
+h4 {
+    font-family: 'Lucida Console';
+    color: #f4a261;
+}
+a:link {
+    color:#2a9d8f;
+}
+
+a:visited {
+    color: #2a9d8f;
+}
+
+a:hover {
+    color: #e9c46a;
+}
+
+a:active {
+    color: #2a9d8f;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
